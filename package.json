@@ -1,0 +1,29 @@
+{
+  "name": "backup_blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dat02092k1/backup_blog.git"
+  },
+  "keywords": [
+    "backup_blog"
+  ],
+  "author": "breakD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dat02092k1/backup_blog/issues"
+  },
+  "homepage": "https://github.com/dat02092k1/backup_blog#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
