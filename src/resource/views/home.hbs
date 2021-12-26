@@ -1,0 +1,21 @@
+<div class="mt-4">
+    <div class="row">
+
+        {{#each courses}}
+
+        <div class="col-small-6 col-lg-4">
+            <div class="card card-item">
+                
+                <div class="card-body">
+                    <h4>A2</h4>
+                    <h5>Name: {{this.name}}</h5>
+                    <h5 class="card-title">Username: {{this.username}}</h5> 
+                    <p class="card-text">Place: {{this.place}}</p>
+                    <a href="/census/{{this.slug}}" class="btn btn-primary">Cấp quyền</a>
+                    <a href="#" class="btn btn-primary">Khóa quyền</a>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>
